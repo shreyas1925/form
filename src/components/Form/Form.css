@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.app--form-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form--container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input {
+    width: 600px;
+    margin: 15px;
+    padding: 12px;
+    outline:none;
+}
+
+.button--container{
+    background-color: green;
+    color:white;
+    margin: 15px;
+    padding: 12px;
+    border:none;
+    transition: all 0.2s;
+}
+
+.button--container:hover{
+    border: 1px solid green;
+    background-color:white;
+    margin: 15px;
+    padding: 12px;
+    color:green;
+    cursor: pointer;
+}
+
+.gender--container{
+    display: flex;
+    flex-direction: row;
+}
+
+.gender{
+    display: flex;
+    margin-left: 15px;
+}
+
+input[type=radio] {
+    width: 70px;
+    margin: 20px;
+    margin-left: 0px;
+    accent-color: green;
+}
+
+textarea{
+    padding:12px;
+    width: 600px !important;
+    margin: 15px;
+    outline:none;
+}
+
+.form--error{
+    color: red;
+    margin: 3px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
